@@ -1,0 +1,37 @@
+CSS Selector
+div[id='message'][type='text']
+
+>  : çocuklarda aramak için kullanılır
+   : tüm çocuklarda(çocuk+torunlar) arama için kullanılır
++  : bitişik kardeşi bulmak için kullanılır
+~  : tüm kardeşlerde ara
+
+[id^='u']  -> ^ bununla başlayan
+[id$='u']  -> $ bununla biten
+[id*='u']  -> * içide bu geçen
+
+
+[id='profile'] > :nth-child(1)
+[id='profile'] çocuklarından 6.cıya git
+
+
+1. -> 1st
+2. -> 2nd
+3. -> 3rd
+4. -> th
+5. -> th
+th
+
+<ul id="lists">
+  <li> seçim 1</li>
+  <li> seçim 1</li>
+<li> seçim 1</li>
+<li> seçim 1</li>
+<li> seçim 1</li>
+<li> seçim 1</li>
+<li> seçim 1</li>
+<li> seçim 1</li>
+
+
+</ul>
+
