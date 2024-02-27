@@ -1,0 +1,13 @@
+Interview da soruyorlar
+Action class nedir ? , nerelerde kullanılır , nasıl kullanırsın
+
+-click ve yazı yazma gibi normal hareketlerin dışındaki tüm  Aksiyonla kullanmamıza imkan sağlayan
+sınıftır.
+
+-sağ click,double click, HoverOver, dragdrop özel tuşlar, yön tuşları bunları yapabilen sınıftır.
+
+-Action aksiyonlar=new Actions(driver); // browser a senin üzerinden aksiyon yapıcam
+ Aksiyonlar : doubleClick, rightClick, HoverOver, Öcel Tuşlar(ctrl,shift,yön tuşları),drag,drop gibi
+    hareketleri yapmamıza imkan sağlar.
+
+    

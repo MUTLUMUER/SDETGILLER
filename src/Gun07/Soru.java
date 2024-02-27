@@ -119,7 +119,7 @@ public class Soru extends BaseDriver {
 
         Assert.assertTrue("Rakamlar eşit değil", urunUcretToplam==itemTotal);
 
-        BekleKapat();
+        BekleKapat();//83237674
     }
 
 }
